@@ -8,7 +8,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Registro-Civil-Br/rcbr-cfg-config/{application}
+          uri: https://github.com/Registro-Civil-Br/rcbr-cfg-config
+          search-paths:
+            - '{application}'
 
 # CONFIGURAÇÕES ACTUATOR
 management:
