@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/Registro-Civil-Br/rcbr-cfg-config
+          uri: https://github.com/Registro-Civil-Br/rcbr-cfg-config/{application}
 
 # CONFIGURAÇÕES ACTUATOR
 management:
