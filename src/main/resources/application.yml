@@ -1,0 +1,19 @@
+server:
+  port: 6060
+
+spring:
+  application:
+    name: CFG-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Registro-Civil-Br/rcbr-cfg-config
+
+# CONFIGURAÇÕES ACTUATOR
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
